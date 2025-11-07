@@ -2,9 +2,9 @@ if (game:GetService("CoreGui")):FindFirstChild("KryntHub") and (game:GetService(
 	(game:GetService("CoreGui")).KryntHub:Destroy();
 	(game:GetService("CoreGui")).ScreenGui:Destroy();
 end;
-_G.Primary = Color3.fromRGB(80, 255, 150)
+_G.Primary = Color3.fromRGB(50, 255, 100)
 _G.Dark    = Color3.fromRGB(15, 15, 20)
-_G.Third   = Color3.fromRGB(255, 0, 255)
+_G.Third   = Color3.fromRGB(0, 150, 50)
 function CreateRounded(Parent, Size)
 	local Rounded = Instance.new("UICorner");
 	Rounded.Name = "Rounded";
